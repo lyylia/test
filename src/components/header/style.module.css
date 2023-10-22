@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+.logo{
+    display: inline-flex;
+    gap: 0.4vw;
+    cursor:pointer;
+}
+
+@media screen and (min-width:600px){
+    .logo > img{
+        width: 30%;
+    }
+}
+
+
+.logo > p{
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+@media screen and (min-width:600px){
+    .logo > p{
+        font-size: 1.5vw;
+    }
+}
+
+
+.selected{
+    color: #fff;
+    text-align: center;
+
+    /* Body/Subtitle 1: Bold */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.3vw solid #1F42FF;
+}
+
+@media screen and (min-width:600px){
+    .selected{
+        font-size: 1.1vw;
+    }
+}
+
+
+
+.nav_bar >  ul{
+    list-style-type: none;
+    padding:0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+}
+
+.navBarItem >  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+
+    /* Body/Subtitle 1: Regular */
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navBarItem >  a:hover{
+    padding-bottom: 0.5vw;
+    border-bottom: 0.3vw solid #1F42FF;
+}
+
+@media screen and (min-width:600px){
+    .navBarItem > a{
+        font-size: 1.1vw;
+    }
+}
+
+.btn{
+    color: #FFF;
+    text-align: center;
+    /* Buttons/Bold */
+    font-family: Roboto; /*depending on figma it's supposed to be Noto Sans instead of Inter*/
+    font-size: 15px; /*depending on figma it's supposed to be 15px insstead of 18px*/
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--primary-02, #1F42FF);
+    height: 38px;
+    border:none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:600px){
+    .btn{
+        font-size: 0.9vw;
+        width: 10vw;
+        height: 3vw;
+        margin-top: 0.4vw;
+        letter-spacing: 0.08vw;
+    }
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 10% 70% 8%;
+    column-gap: 24px;
+    padding-top: 22px;
+    
+}
+
+@media screen and (min-width:600px){
+    .container{
+        column-gap: 3vw;
+        padding-top: 1vw ;
+    }
+}
+
+
+ 
+

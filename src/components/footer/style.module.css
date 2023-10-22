@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.logo{
+    color: var(--foundation-basics-white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 50% */
+    margin-left: -4px;
+    
+
+}
+
+.Text {
+    color: var(--foundation-basics-white, #FFF);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Title{
+    color: var(--foundation-basics-white, #FFF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.list1 {
+    list-style-type: none;
+    padding: 0vw;
+}
+.list1 > li{
+    margin-bottom: 24px;
+}
+
+.list1 > li >  a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.social_media{
+    display: inline-flex;
+    margin-top: -15px;
+    column-gap: 5px;
+}
+
+.footer > div{
+    display: inline-block;
+    margin-right: 30px;  
+}
+
+.footer_sections{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer{
+    width: 100vw;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    background: var(--foundation-basics-dark, #0F1A2A);
+    align-items: first baseline;
+}
+
+.listSM> li{
+    margin-top: -2vw;
+}
+.listSM{ 
+    margin-top: 3.4vw;
+}
+
+@media screen and (min-width:600px){
+    .logo{
+        font-size:3vw;
+        margin-left:-0.3vw ;
+    }
+    .Text{
+        font-size: 1vw;
+    }
+    .Title{
+        font-size:1.3vw;
+    }
+    .list1 > li{
+        margin-bottom: 2vw;
+    }
+    .social_media{
+        margin-top: -1vw;
+        column-gap: 0.5vw;
+    }
+    .social_media > img{
+        width: 1.5vw;
+    }
+    .footer > div{
+        margin-right: 2vw;
+    }
+    .footer{
+        margin-top: 10vw;
+        column-gap: 2vw;
+    }
+}
+

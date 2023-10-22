@@ -1,0 +1,66 @@
+.container{
+    background: url('/Rectangle 3.png');
+    width: 100vw;
+    background-size: 100vw;
+    padding-bottom: 19vw;
+    padding-top: 1vw;
+    background-position:start;
+}
+
+.static{
+    margin-top: 75px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+   
+}
+
+.static > h1{
+    color: #FFF;
+    text-align: center;
+    /* Heading/H2: Bold */
+    font-family: Roboto;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.static > p{
+    color: #FFF;
+    text-align: center;
+
+    /* Body/Subtitle 1: Regular */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+@media screen and (min-width:600px)
+{
+    .static{
+        margin-top: 15vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .static > h1{
+        font-size: 3vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .static>  p{
+        font-size: 1.2vw;
+        padding-left: 17vw;
+        padding-right: 17vw;
+        margin-top: 1vw;
+    }
+}

@@ -1,0 +1,26 @@
+import styles from './style.module.css';
+import ButtonLAR from "@/components/buttonLAR";
+import Service from "@/components/service";
+
+function HomeS2(){
+    return (
+        <div className={styles.container}>
+        <div className={styles.Services_Container}>
+            <section className={styles.All_services_Container}>
+                <h1 className={styles.H1}>Nous sommes spécialisé dans</h1>
+                <p className={styles.P}>ALFA+ est le produit phare de notre entreprise. Il s’agit d’une plateforme de formation ultime pour les professionnels des marchés, les étudiants et les particuliers désireux de maîtriser le trading.<br></br>Nous ne nous restons pas là. Nos experts en collaboration avec nos partenaires, FINNETUDE offre des formations sur des thématiques d’actualité et des technologies de pointe. Notre vision est de transformer l'avenir grâce à la technologie.<br></br>Avec une expertise inégalée, une passion pour l'innovation et une approche axée sur le client, Finnetude est votre partenaire de confiance pour réussir dans le monde numérique d'aujourd'hui et de demain.<br></br>Nous nous considérons comme un champion de l'innovation et de l'excellence technologique. Nous se distinguons par sa capacité à répondre aux besoins spécifiques des institutions financières et des entreprises en offrant des solutions sur mesure, de la sécurité informatique à l'intégration de systèmes en passant par la transformation numérique. </p>
+            <ButtonLAR text={"Tous nos services"}/>
+            </section>
+
+            <section className={styles.Finance_services_Container}> 
+                <div className={styles.FinanceServices1}><Service image={"web-development 1.svg"} title={"Plateforme de formation des technologies de pointes"} description={"ALFA+ est une plateforme de formation révolutionnaire, entièrement numérique, dédiée à l'apprentissage du trading et aux activités des marchés. Conçue pour les apprenants professionnels des marchés, les entreprises, les étudiants et les particuliers souhaitant maîtriser l'activité du trading multi-actifs, ALFA+ offre une expérience d'apprentissage immersive. Notre simulateur 100 % digital permet aux utilisateurs de développer leurs compétences en trading Multi Assets dans un environnement sans risque, en utilisant une variété d'actifs financiers. Avec ALFA+, vous pouvez transformer votre compréhension des marchés financiers et acquérir les compétences nécessaires pour réussir dans le monde du trading.\nNous sommes bien plus qu'une plateforme. Nous sommes votre partenaire dans l'apprentissage des technologies de pointe telles que la blockchain et l'intelligence artificielle. Nous vous préparons selon des formules les plus adaptées pour les défis technologiques du futur, vous permettant de rester à la pointe de l'industrie financière et technologique. Découvrez un monde d'opportunités chez FINNETUDE."}/></div>
+                <div><Service image={"web-development 1.svg"} title={"Solutions pour les institutions financières"} description={"Finnetude, votre partenaire de confiance, se consacre à fournir des solutions sur mesure aux institutions financières. De la mise en place de solutions de paiement à l'implémentation de protocoles de sécurité et d'authentification avancés, en passant par la fourniture d'API pour renforcer leurs systèmes d'information, nous sommes là pour répondre à vos besoins. Notre expertise vous permet de rester compétitif dans un monde financier en constante évolution. Choisissez Finnetude pour une innovation fiable et une excellence technologique, adaptée à votre réussite financière."}/></div>
+                <div><Service image={"web-development 1.svg"} title={"Solutions pour les entreprises"} description={"Nous sommes également spécialisés dans l'accompagnement des entreprises dans leur voyage de digitalisation. Nous aidons à intégrer des ERP pour automatiser les processus de l'entreprise, à mettre en place des systèmes de workflow pour la gestion électronique des documents, à développer des API pour connecter les ERP aux solutions de E-banking proposées par les banques, et même à créer des solutions personnalisées pour optimiser le fonctionnement de leurs équipements de production. Notre engagement envers l'innovation technologique vous aide à transformer votre entreprise et à prospérer dans l'ère numérique"}/></div>
+                <div className= {styles.FinanceServices4}><Service image={"web-development 1.svg"} title={"Développement IT\n"} description={"Chez FINNETUDE, nous sommes votre guichet unique pour tous vos besoins en développement informatique. Nous offrons une gamme complète de services, de la création de logiciels personnalisés à la conception d'applications mobiles et web, en passant par la sécurité informatique, l'analyse de données, et bien plus encore. Notre équipe d'experts est prête à vous accompagner dans votre transformation numérique, à garantir la qualité de vos projets et à vous fournir des solutions innovantes pour stimuler votre croissance. Contactez-nous dès aujourd'hui pour en savoir plus sur la façon dont nous pouvons aider votre entreprise à prospérer dans l'ère numérique"}/></div>
+            </section>
+        </div>
+        </div>
+    )
+}
+
+export default HomeS2

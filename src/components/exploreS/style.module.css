@@ -1,0 +1,9 @@
+.btn{
+    color: var(--neutral-colors-white, #FFF);
+    font-weight: 700;
+    background: var(--primary-02, #1F42FF);
+}
+.arrow_right{
+    transform: rotate(140deg);
+    margin-left: 0.2vw;
+}

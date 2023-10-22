@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.btn{
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background: var(--primary-02, #1F42FF);
+    height: 50px;
+    padding: 10px 32px;
+    gap: 5px;
+    width: fit-content;
+}
+.Span{
+    margin-top: 5px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #FFF;
+}
+.Span::after{
+    background-color: #FFF;
+}
+@media screen and (min-width:600px){
+    .btn{
+        font-size: 1.3vw;
+        height: 3.5vw;
+        padding:1.5vw 2.5vw;
+        gap:0.1vw;
+    }
+    .Span{
+        .Span{
+            border-top: 0.15vw solid #fff;
+            border-left: 0.15vw solid #FFF;
+        }
+    }
+}
+

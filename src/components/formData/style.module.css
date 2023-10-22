@@ -1,0 +1,38 @@
+.container > h6 {
+    color: var(--neutral-colors-text-gray, #9795B5);
+
+    /* Body/Subtitle 1: Regular */
+    font-family: Roboto;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container > p {
+    color: var(--foundation-basics-body-font, #27364B);
+    /* Body/Subtitle 1: Regular */
+    font-family: Roboto;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkboxC > label{
+    color: var(--foundation-basics-body-font, #27364B);
+
+    /* Body/Subtitle 1: Regular */
+    font-family: Roboto;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checkboxC > input[type="checkbox"]{
+    height: 1.5vw;
+    width: 1.5vw;
+    cursor:pointer;
+
+}

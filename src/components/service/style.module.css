@@ -1,0 +1,100 @@
+.rectangle{
+    border: solid 1px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 250px;
+    height: 337px;
+    box-shadow: 8px 10px 27px -1px rgba(196, 196, 196, 0.46); 
+}
+.rectangle:hover{
+    background-color: #1F42FF;
+    background: repeating-linear-gradient(-70deg,#1f42ff 10vw,#6f82ec,#1f42ff);
+}
+@media screen and (min-width:600px){
+    .rectangle{
+        width: 17vw;
+        height: 22vw;
+    }
+}
+.h1_finance_services{
+    color: var(--text, #212D4D);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.rectangle:hover .h1_finance_services{
+    color: #fff;
+} 
+
+.p_finance_services{
+    color: var(--Grey-2, #777);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 150% */
+    width: 203px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;  /* limit to 2 lines */
+}
+.rectangle:hover .p_finance_services{
+    color: #fff;
+} 
+.a_finance_services{
+    color: var(--primary-02, #1F42FF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+.rectangle:hover .a_finance_services{
+    color: #fff;
+} 
+
+.rectangle:hover .img_finance_services{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.rectangle:hover .Span{
+    border-top: 2px solid #fff;
+    border-left: 2px solid #FFF;
+}
+.rectangle:hover .Span::after{
+    background-color: #FFF;
+}
+
+@media screen and (min-width:600px){
+    .h1_finance_services{
+        font-size: 1.3vw;
+        margin-left: 1vw;
+
+    }
+    .p_finance_services{
+        font-size: 0.9vw;
+        width: 15vw;
+        line-height: 1.1vw;
+        margin-left: 1vw;
+        margin-top: -0.2vw;
+
+    }
+    .a_finance_services{
+        font-size: 1.1vw;
+        margin-left: 1vw;
+        margin-top: 0.5vw;
+    }
+    .img_finance_services{
+        width: 30%;
+        margin-left: 1vw;
+    }
+}

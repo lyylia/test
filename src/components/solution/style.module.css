@@ -1,0 +1,97 @@
+.Alfa_Platform_Container > section > h4{
+    color: var(--foundation-basics-dark, #0F1A2A);
+
+    /* Heading/H4: Bold */
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 567px;
+}
+
+.Alfa_Platform_Container > section > p{
+    color: var(--grey-1, #979797);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body/Default */
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 460px;
+    text-align: left;  
+    margin-top: -15px;  
+}
+.Alfa_Platform_Container > img{
+    width: 644px;
+    height: 441px;
+    border-radius: 8px;
+}
+
+@media screen and (min-width:600px){
+    .Alfa_Platform_Container > section > h4{
+        font-size: 2vw;
+        width: 100%;
+    }
+    .Alfa_Platform_Container > section > p{
+        font-size: 1.3vw;
+        width: 33vw;
+        line-height: 2vw;
+        margin-top: 0.5vw;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4; 
+
+    }
+    .Alfa_Platform_Container > img{
+        width: 45vw;
+        height: 30vw;
+    }
+}
+.Alfa_Platform_Container > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: -3vw;
+}
+
+.Alfa_Platform_Container > .buttons_container{    
+   justify-content: start;
+}
+
+.Alfa_Platform_Container {
+    display: flex;
+    align-content: center;
+    margin-left: 30px;
+    margin-top: 100px;
+    column-gap: 95px;
+}
+
+@media screen and (min-width:600px){
+    .Alfa_Platform_Container{
+        margin-left: 2vw;
+        margin-top: 7vw;
+        column-gap: 5vw;
+    }
+}
+
+.buttons_container{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:24px;
+}
+
+@media screen and (min-width:600px){
+    .buttons_container{
+        margin-top:2.5vw;
+        gap:1.5vw;
+    }
+}

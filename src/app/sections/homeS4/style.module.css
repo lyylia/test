@@ -1,0 +1,16 @@
+.companies_logo_container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    column-gap: 50px;
+    margin-top: 30px;
+}
+@media screen and (min-width:600px){
+    .companies_logo_container{
+        column-gap:4vw;
+        margin-top: 2vw;
+    }
+    .companies_logo{
+        width: 5vw;
+    }
+}
+

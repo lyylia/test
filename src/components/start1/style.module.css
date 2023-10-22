@@ -1,0 +1,21 @@
+.btn{
+    border: 1px solid var(--primary-02, #1F42FF);
+    background: #FFF;
+    width: 175px;
+    height: 48px;
+    
+    color: var(--primary-02, #1F42FF);
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media screen and (min-width:600px){
+    .btn{
+        width:11vw;
+        height: 3vw;
+        font-size:1vw;
+    }
+}

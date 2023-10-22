@@ -1,0 +1,53 @@
+.rectangle{
+    border: solid 1px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    width: 250px;
+    height: 337px;
+    background: linear-gradient(180deg, #1F42FF 20%, rgba(255, 255, 255, 0.00) 150%);
+}
+@media screen and (min-width:600px){
+    .rectangle{
+        width: 31vw;
+        height: 44vw;
+    }
+}
+
+.title{
+    color: #FFF;
+
+    /* Heading/H6: Regular */
+    font-family: Roboto;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text{
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:25vw;
+    margin-top: -1vw;
+}
+
+.logo{
+    width:2vw;
+    margin-right: 1vw;
+    margin-top: -1vw;
+}
+
+.content{
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+
+
+

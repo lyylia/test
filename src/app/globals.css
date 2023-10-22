@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.headerNav{
+    position: absolute;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 68px;
+    /* Body/Subtitle 1: Bold */
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:600px){
+    .buttons{
+        font-size: 1.2vw;
+        width: 15vw;
+        height: 4vw;
+    }
+}
+
+.arrow,.long_arrow{
+  margin-left: 10px;
+  margin-bottom:2px;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.long_arrow::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 15px;
+    background-color: #fff;
+    transform: rotate(-45deg) translate(4.5px, 2px);
+    left: 0;
+    top: 0;
+}
+
+@media screen and (min-width:600px){
+    .arrow,.long_arrow{
+        width: 0.6vw;
+        height: 0.6vw;
+        margin-left: 1vw;
+        margin-bottom: 0.1vw;
+        border-top: 0.1vw solid #fff;
+        border-left: 0.1vw solid #fff;  
+    }
+    .long_arrow::after{
+        width: 0.2vw;
+    }
+}
+
+.small_long_arrow_right{
+    border-top: 2px solid #1F42FF;
+    border-left: 2px solid #1F42FF;
+    transform: rotate(135deg);
+    width: 8px;
+    height: 8px;
+}
+
+.small_long_arrow_right::after{
+    background-color: #1F42FF;
+    height: 8px;
+    transform: rotate(-45deg) translate(4.5px, 2px);   
+}
+@media screen and (min-width:600px){
+    .small_long_arrow_right{
+        border-top: 0.1vw solid #1F42FF;
+        border-left: 0.1vw solid #1F42FF;
+        width:0.6vw;
+        height:0.6vw;
+    }
+    .small_long_arrow_right::after{
+        width: 0.08vw;
+        height: 1vw;
+        transform: rotate(-45deg) translate(0.34vw, 0.09vw); 
+    }
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+.Our_Solutions{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #171717;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    }
+    @media screen and (min-width:600px){
+        .Our_Solutions{
+            font-size: 2.5vw;
+            margin-top: 3vw;
+        }
+    } 
+
+.button_explore_more_solutions_container{
+        display:flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+@media screen and (min-width:600px){
+        .button_explore_more_solutions_container{
+            margin-top: 7vw;
+        }
+    }
+
+.Span{
+    color: #1F42FF;
+}
